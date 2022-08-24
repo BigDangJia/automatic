@@ -43,6 +43,13 @@ https://www.tianapi.com/
 
 cd到jar目录下
 nohup java -jar xxx.jar >xxx.txt &
+
+查看所有jar运行状态
+ps -ef | grep java
+
+关闭进程
+kill -9 pid
+
 后边的txt是日志输出目录，跑不起来就点进去看看日志
 什么？ 看不懂？ 解决方法如下
 https://fanyi.youdao.com/
