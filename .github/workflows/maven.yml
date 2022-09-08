@@ -3,9 +3,10 @@
 
 name: C1
 on:
-  schedule:
-    # 定时执行，Runs at 17:00 UTC every day
-    - cron:  '0 17 * * *'
+    push:
+#   schedule:
+#     # 定时执行，Runs at 17:00 UTC every day
+#     - cron:  '0 17 * * *'
     
 jobs:
   build:
