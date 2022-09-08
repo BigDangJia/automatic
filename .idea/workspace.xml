@@ -5,36 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b030e9bc-b76e-42b0-befe-09f37787119f" name="变更" comment="修改测试数据">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/github-action-email.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/luobin/LuobinTianqituisongApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/luobin/luobin_tianqituisong/LuobinTianqituisongApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/luobin/LuobinTianqituisongApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/luobin/controller/Pusher.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/luobin/pojo/Weather.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/luobin/utils/CaiHongPiUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/luobin/utils/JiNianRiUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/luobin/utils/WeatherUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/img/.keep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/img/10.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/img/2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/img/3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/img/4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/img/5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/img/6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/img/7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/img/8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/img/9.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/luobin_tianqituisong-0.0.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/luobin_tianqituisong-0.0.1.jar.original" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.luobin.luobin_tianqituisong.LuobinTianqituisongApplicationTests.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.luobin.luobin_tianqituisong.LuobinTianqituisongApplicationTests.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/luobin/luobin_tianqituisong/LuobinTianqituisongApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/luobin/controller/Pusher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/luobin/controller/Pusher.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,7 +92,7 @@
       <updated>1662628365215</updated>
       <workItem from="1662628366552" duration="3938000" />
       <workItem from="1662641663906" duration="1696000" />
-      <workItem from="1662643543299" duration="4024000" />
+      <workItem from="1662643543299" duration="6188000" />
     </task>
     <task id="LOCAL-00001" summary="首次提交">
       <created>1662641524903</created>
@@ -148,7 +122,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662646103387</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="修改测试数据">
+      <created>1662647809067</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1662647809067</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

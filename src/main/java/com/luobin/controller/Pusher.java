@@ -9,11 +9,40 @@ import me.chanjar.weixin.mp.api.WxMpService;
 import me.chanjar.weixin.mp.api.impl.WxMpServiceImpl;
 import me.chanjar.weixin.mp.bean.template.WxMpTemplateData;
 import me.chanjar.weixin.mp.bean.template.WxMpTemplateMessage;
+import org.yaml.snakeyaml.Yaml;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.net.URL;
+import java.util.List;
+import java.util.Map;
 
 public class Pusher {
 
-    public static void main(String[] args) {
-        push();
+    public static void main(String[] args) throws FileNotFoundException {
+        Yaml yaml = new Yaml();
+        URL url = Pusher.class.getClassLoader().getResource("maven.yml");
+        if (url == null) {
+            throw new NullPointerException("yaml获取失败");
+        }
+        if (url != null) {
+            //获取test.yaml文件中的配置数据，然后转换为obj，
+            Object obj = yaml.load(new FileInputStream(url.getFile()));
+            System.out.println(obj);
+            //也可以将值转换为Map
+            Map map = (Map) yaml.load(new FileInputStream(url.getFile()));
+            System.out.println(map);
+            Map jobs = (Map) map.get("jobs");
+            System.out.println(jobs);
+            Map build = (Map) jobs.get("build");
+            System.out.println(build);
+            List<Map> steps = (List<Map>) build.get("steps");
+            Map env = (Map) steps.get(2).get("with");
+            System.out.println(env.get("username"));
+            //通过map我们取值就可以了.
+        }
+
+        //push();
     }
     private static String appId = "这里改";
     private static String secret = "这里改";
