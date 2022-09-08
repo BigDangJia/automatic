@@ -13,6 +13,7 @@ class LuobinTianqituisongApplicationTests {
 
     @Test
     public void goodMorning(){
-        Pusher.push();
+        System.out.println("开始进行处理数据");
+        //Pusher.push();
     }
 }
