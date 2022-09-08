@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.luobin.luobin_tianqituisong.LuobinTianqituisongApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 3.326 s <<< FAILURE! - in com.luobin.luobin_tianqituisong.LuobinTianqituisongApplicationTests
+goodMorning  Time elapsed: 0.676 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "com.alibaba.fastjson.JSONObject.getJSONArray(String)" because the return value of "com.alibaba.fastjson.JSONObject.getJSONObject(String)" is null
+	at com.luobin.luobin_tianqituisong.LuobinTianqituisongApplicationTests.goodMorning(LuobinTianqituisongApplicationTests.java:16)
+
